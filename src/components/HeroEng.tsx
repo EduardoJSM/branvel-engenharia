@@ -57,10 +57,9 @@ export const HeroEng: React.FC = () => {
                 </Link>
               </div>
 
-              {/* Badges de autoridade */}
               <div className="flex flex-wrap items-center gap-6 text-[11px] text-stone-200 font-light pt-1">
                 <span className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Registro CREA-SE
+                  <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> 
                 </span>
                 <span className="flex items-center gap-1.5">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> Six Sigma Belt
@@ -70,7 +69,6 @@ export const HeroEng: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Coluna Direita: Imagem Industrial sem margens extras */}
         <motion.div 
           initial={{ opacity: 0, x: 15 }}
           animate={{ opacity: 1, x: 0 }}
