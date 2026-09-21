@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-zinc-400 font-light max-w-sm leading-relaxed">
-              Consultoria técnica e serviços em Engenharia de Produção, Lean Manufacturing, OEE e Otimização Operacional.
+              Consultoria técnica e serviços em Engenharia de Produção.
             </p>
           </div>
 
