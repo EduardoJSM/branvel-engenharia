@@ -42,7 +42,6 @@ export const Contact: React.FC = () => {
     <section id="contato" className="py-16 sm:py-24 bg-[#F3F3F0] px-4 sm:px-6 lg:px-8 border-t border-stone-200">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
         
-        {/* Painel Informativo (5 colunas no Desktop) */}
         <div className="lg:col-span-5 space-y-6">
           <div className="inline-flex items-center space-x-2 px-3.5 py-1 bg-[#77216F]/10 border border-[#77216F]/20 rounded-full">
             <span className="text-[11px] font-semibold text-[#77216F] uppercase tracking-wider">
@@ -91,7 +90,6 @@ export const Contact: React.FC = () => {
           </div>
         </div>
 
-        {/* Formulário Profissional (7 colunas no Desktop) */}
         <div className="lg:col-span-7 bg-white p-6 sm:p-10 border border-stone-200 shadow-sm rounded-none">
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
@@ -121,7 +119,7 @@ export const Contact: React.FC = () => {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full px-4 py-3 bg-[#FBFBFB] border border-stone-200 text-zinc-900 focus:outline-none focus:border-[#77216F] focus:bg-white text-sm transition-all"
-                  placeholder="eduardo@empresa.com"
+                  placeholder="contato@empresa.com"
                 />
               </div>
 
@@ -135,7 +133,7 @@ export const Contact: React.FC = () => {
                   value={formData.company}
                   onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                   className="w-full px-4 py-3 bg-[#FBFBFB] border border-stone-200 text-zinc-900 focus:outline-none focus:border-[#77216F] focus:bg-white text-sm transition-all"
-                  placeholder="Ex: UFS / Indústria X"
+                  placeholder="Ex: Empresa"
                 />
               </div>
             </div>

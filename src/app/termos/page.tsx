@@ -45,7 +45,7 @@ export default function TermosEPrivacidade() {
                 <span>1. Prestação de Serviços Técnicos</span>
               </h3>
               <p>
-                Os serviços de consultoria, otimização de processos, mapeamento de fluxo de valor (VSM) e análises de OEE são prestados por Engenheiro de Produção registrado no CREA-SE. Todas as atividades emissores de pareceres cumprem o sistema CONFEA/CREA e normas ABNT aplicáveis, formalizadas via Anotação de Responsabilidade Técnica (ART) quando requerido.
+                Os serviços de consultoria, otimização de processos, mapeamento de fluxo de valor (MFV) e análises de OEE são prestados por Engenheiro de Produção registrado no CREA-SE. Todas as atividades emissores de pareceres cumprem o sistema CONFEA/CREA e normas ABNT aplicáveis, formalizadas via Anotação de Responsabilidade Técnica (ART) quando requerido.
               </p>
             </section>
 
@@ -60,7 +60,6 @@ export default function TermosEPrivacidade() {
             </section>
           </div>
 
-          {/* PARTE 2: POLÍTICA DE PRIVACIDADE & LGPD */}
           <div className="space-y-6 pt-6 border-t border-stone-200">
             <h2 className="text-xl font-medium text-zinc-900 border-b border-stone-200 pb-2">
               Parte 2: Política de Privacidade (LGPD)
@@ -87,10 +86,9 @@ export default function TermosEPrivacidade() {
             </section>
           </div>
 
-          {/* Contato Directo */}
           <section className="border-t border-stone-200 pt-8">
             <p className="text-xs text-zinc-500">
-              Para dúvidas sobre estes termos ou solicitações referente aos seus dados pessoais, entre em contato via e-mail: <strong className="text-zinc-900 font-medium">contato@branvelengenharia.com.br</strong>.
+              Para dúvidas sobre estes termos ou solicitações referente aos seus dados pessoais, entre em contato via e-mail: <strong className="text-zinc-900 font-medium">eng.eduardojsm@gmail.com</strong>.
             </p>
           </section>
 

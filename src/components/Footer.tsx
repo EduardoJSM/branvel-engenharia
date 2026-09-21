@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-500 font-light gap-4">
-          <p>© {new Date().getFullYear()} BRANVEL ENGENHARIA. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} BRANVEL ENGENHARIA LTDA. Todos os direitos reservados.</p>
           <div className="flex items-center space-x-2">
             <Link href="/termos" className="hover:text-zinc-300 transition-colors">
               Termos de uso & Privacidade (LGPD)

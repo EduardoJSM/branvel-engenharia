@@ -3,6 +3,7 @@
 import { Navbar } from '../components/Navbar';
 import { HeroEng } from '../components/HeroEng';
 import { ProjectsSection } from '../components/ProjectsSection';
+import KitDoGestor from '../components/barra';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { 
@@ -70,7 +71,6 @@ export default function Home() {
       
       <HeroEng />
 
-      {/* Seção de Pilares de Atuação */}
       <section id="metodologia" className="py-20 bg-white border-y border-stone-200 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -99,7 +99,8 @@ export default function Home() {
 
       <ProjectsSection />
 
-      {/* Seção de Etapas de Trabalho */}
+      <KitDoGestor />
+
       <section className="py-20 bg-[#F3F3F0] px-4 sm:px-6 lg:px-8 border-b border-stone-200">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
@@ -134,7 +135,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seção Sobre / Credibilidade */}
       <section id="sobre" className="py-20 bg-white px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-6">
