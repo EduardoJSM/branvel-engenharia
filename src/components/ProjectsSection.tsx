@@ -28,7 +28,6 @@ export const ProjectsSection: React.FC = () => {
             </h2>
           </div>
 
-          {/* Filtros em rolagem horizontal no mobile */}
           <div className="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-none">
             {categories.map((cat) => (
               <button

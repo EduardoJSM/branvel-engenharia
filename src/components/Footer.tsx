@@ -32,7 +32,6 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Informações Institucionais e CREA-SE */}
         <div className="text-[11px] text-zinc-500 font-light leading-relaxed space-y-3 max-w-5xl">
           <p>
             Serviços prestados por Engenheiro de Produção devidamente registrado no Conselho Regional de Engenharia e Agronomia de Sergipe (CREA-SE). Todas as atividades técnicas e pareceres operacionais cumprem as exigências do sistema CONFEA/CREA e normas ABNT aplicáveis.
