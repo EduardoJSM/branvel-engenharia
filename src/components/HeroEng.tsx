@@ -38,7 +38,6 @@ export const HeroEng: React.FC = () => {
               Otimização contínua de linhas de montagem, eliminação sistemática de gargalos e gestão de processos fundamentada em dados.
             </p>
 
-            {/* Ações */}
             <div className="pt-6 space-y-6 border-t border-white/15">
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                 <Link
@@ -81,10 +80,8 @@ export const HeroEng: React.FC = () => {
             className="object-cover object-center"
           />
 
-          {/* Sombreamento sutil para leitura das métricas */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-black/30 pointer-events-none" />
 
-          {/* Card Flutuante Superior (Média de Ganhos) */}
           <div className="absolute top-6 right-6 z-10 bg-white/95 backdrop-blur-md p-3.5 border border-stone-200 shadow-xl max-w-[240px]">
             <div className="flex items-center space-x-3">
               <div className="p-2 bg-[#77216F]/10 text-[#77216F]">

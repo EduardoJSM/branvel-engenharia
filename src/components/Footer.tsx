@@ -8,7 +8,6 @@ export const Footer: React.FC = () => {
     <footer className="bg-zinc-950 text-white py-16 px-4 sm:px-6 lg:px-8 border-t border-zinc-800/60">
       <div className="max-w-7xl mx-auto space-y-12">
         
-        {/* Identidade e Links */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pb-12 border-b border-zinc-800/80">
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
@@ -30,15 +29,6 @@ export const Footer: React.FC = () => {
             <a href="/#sobre" className="hover:text-white transition-colors">Sobre</a>
             <a href="/#contato" className="hover:text-white transition-colors">Contato</a>
           </div>
-        </div>
-
-        <div className="text-[11px] text-zinc-500 font-light leading-relaxed space-y-3 max-w-5xl">
-          <p>
-            Serviços prestados por Engenheiro de Produção devidamente registrado no Conselho Regional de Engenharia e Agronomia de Sergipe (CREA-SE). Todas as atividades técnicas e pareceres operacionais cumprem as exigências do sistema CONFEA/CREA e normas ABNT aplicáveis.
-          </p>
-          <p>
-            As informações e dados operacionais compartilhados por empresas contratantes são protegidos por compromisso de confidencialidade (NDA) e tratados conforme a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
-          </p>
         </div>
 
         <div className="pt-8 border-t border-zinc-900 flex flex-col sm:flex-row items-center justify-between text-[11px] text-zinc-500 font-light gap-4">
