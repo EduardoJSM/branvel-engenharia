@@ -3,7 +3,7 @@
 import { Navbar } from '../components/Navbar';
 import { HeroEng } from '../components/HeroEng';
 import { ProjectsSection } from '../components/ProjectsSection';
-import KitDoGestor from '../components/barra';
+import { ResourcesSection } from '../components/ResourcesSection';
 import { Contact } from '../components/Contact';
 import { Footer } from '../components/Footer';
 import { 
@@ -14,7 +14,6 @@ import {
   Layers, 
   Zap, 
   CheckCircle2, 
-  Award,
   Cpu
 } from 'lucide-react';
 
@@ -99,7 +98,7 @@ export default function Home() {
 
       <ProjectsSection />
 
-      <KitDoGestor />
+      <ResourcesSection />
 
       <section className="py-20 bg-[#F3F3F0] px-4 sm:px-6 lg:px-8 border-b border-stone-200">
         <div className="max-w-7xl mx-auto">
